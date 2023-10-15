@@ -1,0 +1,1 @@
+`py-pcsc-terminal` is an interactive command line (CLI) tool for PC/SC that can send, receive and parse APDU for PC/SC readers.

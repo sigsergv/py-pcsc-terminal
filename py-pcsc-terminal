@@ -1,0 +1,8 @@
+#!/bin/sh
+# Copyright 2023 Sergey Stolyarov <sergei@regolit.com>
+#
+# Distributed under New BSD License.
+#
+# https://opensource.org/license/bsd-3-clause/
+
+python3 -m pypcsct $@
