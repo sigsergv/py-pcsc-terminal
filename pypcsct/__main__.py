@@ -5,7 +5,10 @@
 # https://opensource.org/license/bsd-3-clause/
 
 import argparse
-import gnureadline as readline
+try:
+    import gnureadline as readline
+except ImportError:
+    import readline
 import os
 import atexit
 import re
